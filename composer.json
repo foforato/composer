@@ -1,0 +1,17 @@
+{
+    "name": "wilder17/composer",
+    "authors": [
+        {
+            "name": "foforato",
+            "email": "arhim45@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Wcs\\": "src/Wcs/"
+        }
+    }
+}
